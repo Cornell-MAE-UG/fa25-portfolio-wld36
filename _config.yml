@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Wesley DeCosta
 description              : Wesley DeCosta - Projects and CV 
-baseurl                  : "fa25-portfolio-wld36-main" # Set this to your repo name 
+baseurl                  : "fa25-portfolio-wld36" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
