@@ -10,6 +10,7 @@ To test our knowledge of wind turbine dynamics, fluid mechanics, and mechanical 
 
 
 The design process combined an iterative optimum-rotor method with blade element theory implemented in MATLAB. Using a NACA 4412 airfoil, we optimized chord, twist, and pitch distributions along the blade span for a target wind speed of 4.167 m/s, derived from the cubic power-weighted Weibull distribution. Initial designs at higher rotational speeds exceeded allowable stress limits, leading to an iterative reduction in operating speed. The final design operated at 1100 RPM with a tip speed ratio of 4.21, producing stresses over two orders of magnitude below the material failure limit while maintaining aerodynamic efficiency.
+
 ![Final turbine blade CAD model]({{ "/assets/images/BladeTwist.png" | relative_url }})
 
 
