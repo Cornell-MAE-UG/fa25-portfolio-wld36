@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Wesley DeCosta>
+title: Wesley DeCosta
 ---
 
 ## About Me
