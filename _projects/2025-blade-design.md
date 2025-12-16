@@ -7,7 +7,7 @@ image: /assets/images/BladeCAD.png
 ---
 
 To test our knowledge of wind turbine dynamics, fluid mechanics, and mechanical design, our group designed wind turbine blades with optimized power generation at low wind speeds. Many constraints of this design came from the wind tunnel in which we tested our turbine. The objective was to maximize power output under a realistic Weibull wind distribution while meeting strict geometric, structural, and operational constraints. These included compatibility with a standard hub, a maximum blade length of 6 inches, a width limit of 2 inches, and a rotational speed cap of 2000 RPM. Material limits from Accura 25 resin further constrained the design, requiring conservative stress margins to ensure safe operation.
-![Final turbine blade CAD model]({{ "/assets/images/BladeTwist.png" | relative_url }}){: .inline-image-l}
+![Final turbine blade CAD model]({{ "/assets/images/BladeTwist.png" | relative_url }})
 The design process combined an iterative optimum-rotor method with blade element theory implemented in MATLAB. Using a NACA 4412 airfoil, we optimized chord, twist, and pitch distributions along the blade span for a target wind speed of 4.167 m/s, derived from the cubic power-weighted Weibull distribution. Initial designs at higher rotational speeds exceeded allowable stress limits, leading to an iterative reduction in operating speed. The final design operated at 1100 RPM with a tip speed ratio of 4.21, producing stresses over two orders of magnitude below the material failure limit while maintaining aerodynamic efficiency.
 
 
